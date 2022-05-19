@@ -117,3 +117,19 @@ console.log(apess[0]);    //  pobranie/wyświetlenie pierwszego elementu tablicy
 console.log(heroNames[0]);    //  wyświetlenie pierwszego elementu tablicy
 console.log(heroNames[heroNames.length - 1]);   //  wyświetlenie ostatniego elementu tablicy
 console.log(apess[apess.length - 1]);   //  wyświetlenie ostatniego elementu tablicy
+
+for (const item of heroNames)       //  pętla iterująca po każdym elemencie tablicy, zwracająca indexy
+{
+    console.log(item);
+}
+
+for (const num in heroNames) {      //  pętla iterująca po każdym elemencie tablicy, zwracająca element
+    console.log(num);
+}
+
+for (let elem of apess) {       //  pętla iterująca po każdym elemencie tablicy, zwracająca element
+    console.log(elem);
+}
+
+
+
