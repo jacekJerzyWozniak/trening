@@ -42,4 +42,6 @@ console.log(restOfCar);
 
 
 
-
+for (let index in car) {        //  pętla FOR IN iteruje po tablicy  'car'
+    console.log(car[index]);
+}
