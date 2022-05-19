@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flashcard!</title>
+  <link rel="stylesheet" href="dodawanie eementów html w js.css" />
+</head>
+
+<body>
+  <main>
+    <section>
+      <div>
+        <h3 style="text-align: center">Jak dodać elementy HTML w JS?</h3>
+        <p>1. Stwórz element i przypisz do zmiennej</p>
+        <code> const el = document.createElement('p');</code>
+
+        <p>2. Przypisz mu odpowiednie atrybuty itp.</p>
+        <code> el.textContent = "Paragraf!";</code>
+
+        <p>3. Dodaj go w odpowiednim miejscu drzewa DOM</p>
+        <code>document.body.append(el)</code>
+
+        <p class="text-center text-xl" style="margin-bottom: 0">Brawo!</p>
+        <p class="text-center" style="margin-top: 0">💪</p>
+      </div>
+    </section>
+    <section id="js"></section>
+  </main>
+  <script src="dodawanie elementów html w js.js"></script>
+</body>
+
+</html>

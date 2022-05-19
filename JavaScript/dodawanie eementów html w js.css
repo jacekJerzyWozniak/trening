@@ -1,0 +1,24 @@
+html,
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+section div {
+  margin: 0.35rem;
+  padding: 0.35rem;
+  background-color: bisque;
+  border-radius: 5px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: x-large;
+}

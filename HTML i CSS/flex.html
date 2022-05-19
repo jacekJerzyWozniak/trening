@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: navy;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            min-height: 1000px;
+            display: flex;
+            justify-content: space-evenly;
+            border: 8px solid black;
+            align-items: center;
+            background-color: darkred;
+
+        }
+
+        .box-1,
+        .box-2,
+        .box-3,
+        .box-4 {
+            width: 250px;
+            height: 250px;
+            border: 2px solid yellow;
+            margin: 30px;
+            color: aliceblue;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .box-1 {
+            background-color: red;
+            align-self: center;
+        }
+
+        /* .box-1:hover {
+            scale: 2;
+
+        } */
+
+        .box-2 {
+            background-color: green;
+
+        }
+
+        .box-3 {
+            background-color: black;
+
+        }
+
+        .box-4 {
+            background-color: blue;
+        }
+
+        p {
+
+            align-self: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box-1">
+            <p>czerwony</p>
+        </div>
+        <div class="box-2">
+            <p>zielony</p>
+        </div>
+        <div class="box-3">
+            <p>czarny</p>
+        </div>
+        <div class="box-4">
+            <p>niebieski</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
