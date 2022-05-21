@@ -82,6 +82,12 @@ function dodaj(x, y) {
 
 };
 
+
+
+
+
+
+
 //  prosta funkcja odejmwania
 
 function odejmij(x, y) {
@@ -93,6 +99,11 @@ function odejmij(x, y) {
 odejmij(4, 8);
 dodaj(9.5, 1.5);
 console.log(wynikOd, wynikDo);
+
+
+
+
+
 
 
 //  funkcja z callbackiem
@@ -129,3 +140,11 @@ console.log(wynikSilni);
 
 
 
+
+
+
+
+
+
+console.time("Czas");       //  czas rozpoczęcia
+console.timeEnd("Czas");        //  czas zakończenia

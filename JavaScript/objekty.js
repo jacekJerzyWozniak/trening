@@ -29,7 +29,7 @@ const car = {       //  objekt "car" posiadający pola: model, year....
     engine: "1.8"
 }
 
-const { fuel, manufacturer } = car;     //  destrukturyzacja objektu "car"
+const { fuel, manufacturer } = car;     //  destrukturyzacja obiektu "car"
 console.log(manufacturer, fuel);
 console.log(car);
 
@@ -45,3 +45,30 @@ console.log(restOfCar);
 for (let index in car) {        //  pętla FOR IN iteruje po tablicy  'car'
     console.log(car[index]);
 }
+
+
+
+
+
+
+
+
+const todos = {
+
+    "2022-05-06": {
+        todos: ["Sprzątanie", "Kodowanie"],
+        done: true,
+    },
+    "2022-05-07": {
+        todos: ["Kodowanie", "Kino"],
+        done: false,
+    },
+    "2022-05-08": {
+        todos: ["Grill"],
+        done: false,
+    },
+};
+
+console.log(Object.keys(todos));        //  zwraca klucze w formie tablicy
+console.log(Object.values(todos));      //  zwraca wartości w formie tablicy
+console.log(Object.entries(todos));     //  zwraca wszystko xD
