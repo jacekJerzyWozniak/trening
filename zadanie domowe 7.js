@@ -25,12 +25,18 @@ const elLi3 = document.createElement("li");
 elOl.append(elLi3);
 elLi3.innerText = "Dane zapisujcie i pobierajcie z localStorage";
 
+
+
 const clickButton = document.querySelector("button");
+
+
 
 clickButton.addEventListener("click", () => {
 
-    const elLi4 = document.createElement("li");
-    elOl.append(elLi4);
-    elLi4.innerText = 
+    const elLiClick = document.createElement("li");
+    elOl.append(elLiClick);
+    elLiClick.innerText = elInput.value;
+    elInput.value = "";
 
 });
+
