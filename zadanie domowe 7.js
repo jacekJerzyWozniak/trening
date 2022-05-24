@@ -38,5 +38,14 @@ clickButton.addEventListener("click", () => {
     elLiClick.innerText = elInput.value;
     elInput.value = "";
 
+    const elErase = document.createElement("button");
+    elErase.innerText = "Usuń";
+    elErase.setAttribute("class", "listowy");
+    elLiClick.append(elErase);
+
 });
+
+
+
+
 
