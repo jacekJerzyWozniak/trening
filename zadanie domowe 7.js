@@ -45,6 +45,14 @@ clickButton.addEventListener("click", () => {
 
 });
 
+// const clickButtonErase = document.querySelector(".listowy");
+
+// clickButtonErase.addEventListener("click", () => {
+
+//     console.log("Kliknąłeś usuń!");
+
+// })
+
 
 
 
