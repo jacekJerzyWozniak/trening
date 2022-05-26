@@ -5,7 +5,7 @@ elInput.setAttribute("type", "text");
 document.body.append(elInput);
 
 const elButton = document.createElement("button");
-elButton.innerText = "zadanie 7";
+elButton.innerText = "Dodaj - zadanie 7";
 document.body.append(elButton);
 
 const elOl = document.createElement("ol");
@@ -35,23 +35,32 @@ clickButton.addEventListener("click", () => {
 
     const elLiClick = document.createElement("li");
     elOl.append(elLiClick);
-    elLiClick.innerText = elInput.value;
+    localStorage.setItem("list-item-key", elInput.value);
+    elLiClick.innerText = localStorage.getItem("list-item-key");
     elInput.value = "";
 
-    const elErase = document.createElement("button");
+    elErase = document.createElement("button");
     elErase.innerText = "Usuń";
-    elErase.setAttribute("class", "listowy");
+    elErase.setAttribute("class", "list");
     elLiClick.append(elErase);
 
+
+    elEraseButton = document.querySelector(".list");
+    elEraseButton.addEventListener("click", () => {
+        elLiClick.remove();
+    });
 });
 
-// const clickButtonErase = document.querySelector(".listowy");
 
-// clickButtonErase.addEventListener("click", () => {
 
-//     console.log("Kliknąłeś usuń!");
 
-// })
+
+
+
+
+
+
+
 
 
 
