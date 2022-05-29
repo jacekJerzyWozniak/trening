@@ -46,4 +46,3 @@ myForm.addEventListener("change", () => {       //  sprawdza jakÄ…kolwiek zmianÄ
 });
 
 
-localStorage.setItem("nowy klucz", 782.5)
