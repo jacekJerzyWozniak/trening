@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REACT</title>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+<script src="https://unpkg.com/react@18.1.0/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@18.1.0/umd/react-dom.development.js"></script>
+<script>
+    const h1 = React.createElement("h1", null, "Hello World!");
+    const root = ReactDOM.createRoot(document.querySelector("#root"));
+    root.render(h1);
+
+
+
+
+    const add = React.createElement("div", { style: { margin: "100px", display: "flex" } },
+
+        React.createElement("img", { src: "https://www.tygodnikprzeglad.pl/wp-content/uploads/2020/05/20191227-113529-800x500_c.jpg", width: "500px" }),
+
+        React.createElement("div", { className: "rightDiv" },
+
+            React.createElement("p", { style: { fontSize: "1rem", padding: "30px", letterSpacing: "1px" } }, "Lorem ipsum dolor sit amet, vel nulla labitur at, eam omnesque invenire ad. Mel ignota quaeque cu. Et officiis erroribus mel. Aliquando necessitatibus sit ei. No est soleat eripuit contentiones, suas lucilius eu eos, et eos vidit tamquam comprehensam. Ad eam latine percipitur, case ancillae convenire cum ex. Enim dolorem vituperata ex pri."),
+            React.createElement("h4", { className: "footer", style: { textAlign: "right" } }, "all rights reserved!")));
+
+
+    root.render(add);
+
+    console.log(h1);
+</script>
+
+</html>
